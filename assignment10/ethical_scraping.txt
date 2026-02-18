@@ -1,0 +1,15 @@
+1. Sections of Wikipedia restricted for crawling:
+   - /w/
+   - /api/
+   - /trap/
+   - /wiki/Special: (and language variations like Spezial, Spesial)
+   - Administrative pages such as /wiki/Wikipedia:Löschkandidaten/, /wiki/Wikipedia:Vandalensperrung/, /wiki/Wikipedia:Benutzersperrung/
+
+2. Specific rules for user agents:
+   - Some rules apply to all user agents (*), restricting access to the sections listed above.
+   - Certain language-specific pages (like Arabic or German Wikipedia) have additional disallow rules for search pages and admin pages.
+
+3. Purpose and ethical considerations:
+   - Websites use robots.txt to tell crawlers which parts of the site should not be accessed automatically.
+   - This helps prevent server overload, protects sensitive content, and ensures privacy.
+   - Following these rules promotes ethical web scraping by respecting the website owner’s boundaries.
